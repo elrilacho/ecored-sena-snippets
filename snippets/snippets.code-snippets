@@ -1,0 +1,722 @@
+{ "Parrafo Margen Inferior":{
+  "prefix": "pmb",
+  "body":"p.mb-5(data-aos='fade-right')",
+
+},
+"Titulo uno":{
+  "prefix": "tituloUno",
+  "body": [
+    ".titulo-principal.color-acento-contenido",
+    "\t.titulo-principal__numero",
+    "\t\tspan 1",
+    "\th1 "
+  ] 
+},
+"Titulo dos":{
+  "prefix": "tituloDos",
+  "body": [
+    "titulo-segundo.color-acento-contenido(data-aos='fade-right')",
+    "\th2 ",
+  ] 
+},
+"Titulo tres":{
+  "prefix": "tituloTres",
+  "body": [
+    "h3.titulo-tercero(data-aos='fade-right')",
+  ] 
+},
+"Titulo cuatro":{
+  "prefix": "tituloCuatro",
+  "body": [
+    "h4.titulo-cuarto(data-aos='fade-right')",
+  ] 
+},
+"Titulo cinco":{
+  "prefix": "tituloCinco",
+  "body": [
+    ".titulo-quinto.color-acento-contenido",
+    "\th4 ",
+  ] 
+},
+"Titulo seis":{
+  "prefix": "tituloSeis",
+  "body": [
+    ".titulo-sexto.color-acento-contenido(data-aos='fade-right')",
+    "\th5",
+    "\tspan"
+  ] 
+},
+"Listado ordenado basico":{
+  "prefix": "listadoOrdenadoBasico",
+  "body": [
+    "ol.lista-ol",
+      "\tli" ,
+        "\t\tspan.text-bold 1. ",
+        "\t\t|"
+  ] 
+},
+"Listado ordenado basico + separador":{
+  "prefix": "listadoOrdenadoBasicoSeparador",
+  "body": [
+    "ol.lista-ol.lista-ol--separador",
+      "\tli",
+        "\t\tspan.text-bold a",
+        "\t\t|"
+  ] 
+},
+"Listado ordenado cuadro color":{
+  "prefix": "listadoOrdenadoCuadroColor",
+  "body": [
+    "ol.lista-ol--cuadro",
+      "\tli",
+        "\t.lista-ol--cuadro__vineta",
+          "\t\tspan 1",
+          "\t|"
+  ] 
+},
+"Listado ordenado cuadro color + separador":{
+  "prefix": "listadoOrdenadoCuadroColorSeparador",
+  "body": [
+    "ol.lista-ol--cuadro.lista-ol--cuadro--separador",
+      "\t.lista-ol--cuadro__vineta",
+        "\t\tspan a",
+        "\t|"
+  ] 
+},
+"Listado no ordenado basico":{
+  "prefix": "listadoNoOrdenadoBasico",
+  "body": [
+    "ul.lista-ul",
+      "\tli" ,
+        "\t\ti.fas.fa-angle-right",
+        "\t\t|"
+  ] 
+},
+"Listado no ordenado basico + separador":{
+  "prefix": "listadoNoOrdenadoBasicoSeparador",
+  "body": [
+    "ul.lista-ul.lista-ul--separador",
+      "\tli",
+        "\t\ti.fas.fa-angle-right",
+        "\t\t|"
+  ] 
+},
+"Listado no ordenado basico + color":{
+  "prefix": "listadoNoOrdenadoBasicoColor",
+  "body": [
+    "ul.lista-ul--color",
+      "\tli",
+        "\t\ti.fas.fa-angle-right",
+        "\t\t|"
+  ] 
+},
+"Tablas":{
+  "prefix": "tabla",
+  "body": [
+    ".tabla-a.color-acento-botones.mb-5", 
+      "\ttable",
+        "\t\tcaption Leyenda de la tabla",
+        "\t\tthead",
+          "\t\t\ttr",
+            "\t\t\t\tth Encabezado 1",
+            "\t\t\t\tth Encabezado 2",
+            "\t\t\t\tth Encabezado 3",
+            "\t\t\t\tth Encabezado 4",
+            "\t\t\t\tth Encabezado 5",
+        "\t\ttbody",
+          "\t\t\ttr",
+            "\t\t\t\ttd Celda 1",
+            "\t\t\t\ttd Celda 2",
+            "\t\t\t\ttd Celda 3",
+            "\t\t\t\ttd Celda 4",
+            "\t\t\t\ttd Celda 5"
+  ]
+},
+"Tabla tipo b": {
+  "prefix": "tablaB",
+  "body": [
+    ".tabla-b.color-acento-contenido.mb-5",
+      "\t.tabla-b__header",
+        "\t\th5.mb-0 Niveles del lenguaje",
+      "\ttable",
+        "\t\tcaption Leyenda de la tabla",
+        "\t\ttr",
+          "\t\t\tth Vulgar",
+          "\t\t\ttd Get back to work. Learn from criticism."
+  
+  ]
+
+},
+"Tabla tipo c": {
+  "prefix": "tablaC",
+  "body": [
+    ".tabla-c",
+      "\ttable",
+        "\t\tcaption Leyenda de la tabla",
+        "\t\ttr",
+        "\t\t\tth 03 de marzo",
+        "\t\t\ttd",
+        "\t\t\t\tp.text-small Donec mattis libero quis nisi euismod, a sodales magna porttitor.",
+  ]
+
+},
+"Imagen":{
+  "prefix": "imagen",
+  "body": [
+    "img(src='@/assets/curso/temas/', alt='')",
+  ]
+},
+"Imagen infografica":{
+  "prefix": "imagenInfografica",
+  "body": [
+    "ImagenInfografica.color-secundario.mb-5",
+      "\ttemplate(v-slot:imagen)",
+        "\t\tfigure",
+          "\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+          "\t\t\tfigcaption Leyenda de la imagen",
+      "\t.tarjeta.color-acento-botones.p-3(x=\"20%\" y=\"20%\" numero=\"1\")",
+        "\t\t.h5.mb-2 titulo",
+        "\t\tp Lorem ipsum dolor Curabitur vestibulum tortor quis nisi"
+  ]
+},
+"Imagen infografica B":{
+  "prefix": "imagenInfograficaB",
+  "body": [
+    "ImagenInfograficaB.color-secundario.mb-5",
+      "\ttemplate(v-slot:imagen)",
+        "\t\tfigure",
+          "\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+          "\t\t\tfigcaption Leyenda de la imagen",
+      "\tdiv(x=\"20%\" y=\"20%\" tooltip=\"tooltip de max 35 caracteres\" numero=\"1\")",
+        "\t\t.h5.mb-2 titulo",
+        "\t\tp Lorem ipsum dolor Curabitur vestibulum tortor quis nisi"
+  ]
+},
+"Imagen Zoom":{
+  "prefix": "imagenZoom",
+  "body": [
+    ".position-relative(@mouseover=\"indicadorImagenZoom = false\")",
+    "\tZoom(",
+    "\t\tlente=\"200\"", 
+    "\t\t:baja-resolucion=\"require('@/assets/curso/baja.jpeg')\"", 
+    "\t\t:alta-resolucion=\"require('@/assets/curso/alta.jpeg')\"",
+  "\t)"
+  ]
+},
+"Video":{
+  "prefix": "video",
+  "body": [
+    "figure",
+      "\t.video",
+        "\t\tiframe(width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2L91WMqw96A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen)",
+      "\tfigcaption Video: Leyenda del video"
+
+  ]
+},
+"Cajon de texto color":{
+  "prefix": "cajonDeTexto",
+  "body": [
+    ".cajon.color-primario.p-4.mb-4",
+      "\t.h5 Cajón texto color",
+      "\tp Se puede usar dos o más columnas para diagramar el texto"
+  ]
+},
+"Cajon de texto b":{
+  "prefix": "cajonDeTextoB",
+  "body": [
+    ".cajon-b.color-primario.p-3.mb-5",
+      "\tp.mb-0 Utilizar las clases arriba-derecha y similares para cambiar posicion del cuadro"
+  ]
+},
+"Bloque de texto A":{
+  "prefix": "bloqueTextoA",
+  "body": [
+    ".bloque-texto-a.color-secundario.p-4.p-md-5.mb-5", 
+      "\t.row.m-0.align-items-center.justify-content-between",
+        "\t\t.col-lg-4.mb-4.mb-lg-0",
+          "\t\t\th2.mb-0 Whatever can be captured in words can be conquered with understanding." ,
+        "\t\t.col-lg-8",
+          "\t\t\t.bloque-texto-a__texto.p-4",
+            "\t\t\t\tp Think about all the possibilities. A good composition is the"
+  ]
+},
+"Bloque de texto B":{
+  "prefix": "bloqueTextoB",
+  "body": [
+    ".bloque-texto-b.color-secundario.p-4",
+      "\t.bloque-texto-b__texto",
+        "\t\ti.fas.fa-quote-left",
+        "\t\th2.mb-0 Can we all just agree as the greater design community to stop talking about Comic Sans altogether?",
+        "\t\ti.fas.fa-quote-right"
+  ]
+},
+"Bloque de texto C":{
+  "prefix": "bloqueTextoC",
+  "body": [
+    ".bloque-texto-c.color-secundario.p-4",
+      "\ti.fas.fa-quote-right",
+      "\th2.mb-2 Then you’ll prove to yourself that you can survive anything.",
+      "\tspan - The graphic designer"
+  ]
+},
+"Bloque de texto D":{
+  "prefix": "bloqueTextoD",
+  "body": [
+    ".bloque-texto-d.color-secundario.p-4",
+      "\t.bloque-texto-d__texto.mb-2",
+        "\t\ti.fas.fa-quote-left",
+        "\t\th3.text-regular Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada, ligula sapien convallis risus, a iaculis velit ante at turpis. Vivamus bibendum tellus sed tincidunt rhoncus. Nam velit massa, porttitor eget quam et, porttitor viverra eros. Donec eget pharetra metus. Cras porta arcu eu mauris iaculis euismod. Sed fringilla vel nisl quis aliquam.",
+        "\t\ti.fas.fa-quote-right",
+      "\t.bloque-texto-d__autor ",
+        "\t\t.h5.mb-0 The graphic designer",
+        "\t\t.h6.mb-0 Lorem ipsum dolor sit amet"
+  ]
+},
+"Bloque de texto E":{
+  "prefix": "bloqueTextoE",
+  "body": [
+    ".bloque-texto-e.color-secundario.p-4",
+      "\t.bloque-texto-e__texto",
+        "\t\ti.fas.fa-quote-left",
+        "\t\th2.text-regular Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt augue in augue tempus, in dapibus justo interdum. Sed viverra sed odio quis rhoncus. In elementum purus massa, id venenatis purus ullamcorper ut. Vestibulum vel dictum dolor, nec fringilla orci. Nulla vestibulum, metus nec porttitor bibendum, lectus ligula viverra eros, eget tempor risus nulla pretium justo. Nullam turpis dolor, pharetra vel fermentum at, rutrum in elit. Maecenas vitae hendrerit libero, et ornare augue. Vestibulum iaculis, metus et accumsan malesuada.",
+        "\t\ti.fas.fa-quote-right",
+      "\t.row.align-items-end",
+        "\t\t.col",
+          "\t\t\t.bloque-texto-e__autor" ,
+            "\t\t\t\t.h5.mb-0 The graphic designer",
+            "\t\t\t\t.h6.mb-0 Lorem ipsum dolor sit amet",
+        "\t\t.col-4",
+          "\t\t\timg(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')"
+  ]
+},
+"Bloque de texto F":{
+  "prefix": "bloqueTextoF",
+  "body": [
+    ".bloque-texto-f.color-secundario.pt-4.px-5.mb-5",
+      "\t.bloque-texto-f__comillas",
+        "\t\ti.fas.fa-quote-left",
+        "\t\ti.fas.fa-quote-right",
+      "\th4.text-regular.bloque-texto-f__texto", 
+      "\t.bloque-texto-f__autor.mb-3",
+        "\t\th3.mb-0 The graphic designer",
+      "\t.bloque-texto-f__avatar",
+        "\t\t.bloque-texto-f__avatar__img",
+          "\t\t\timg(src='@/assets/template/img-placeholder-1-1.svg', alt='Texto que describa la imagen')"
+  ]
+},
+"Bloque de texto G":{
+  "prefix": "bloqueTextoG",
+  "body": [
+    ".bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5",
+      "\t.bloque-texto-g__img(",
+        "\t\t:style=\"{'background-image':`url(${require('@/assets/curso/img.jpg')})`}\"",
+      "\t)",
+      "\t.bloque-texto-g__texto.p-4",
+        "\t\tp.mb-0"
+  ]
+},
+"Slyder A":{
+  "prefix": "slyderA",
+  "body": [
+    "SlyderA",
+      "\t.row",
+        "\t\t.col-md-6.mb-4.mb-md-0",
+          "\t\t\tp This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.",
+      
+        "\t\t.col-md-6",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "\t\t\t\tfigcaption Leyenda de la imagen"
+  ]
+},
+"Slyder A tipo b":{
+  "prefix": "slyderTipoB",
+  "body": [
+    "SlyderA(tipo='b')",
+      "\t.row",
+        "\t\t.col-md-6.mb-4.mb-md-0",
+          "\t\t\tp This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.",
+      
+        "\t\t.col-md-6",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "\t\t\t\tfigcaption Leyenda de la imagen"
+  ]
+},
+"Slyder B":{
+  "prefix": "slyderB",
+  "body": [
+    "SlyderB.mb-5(:datos=\"datosSlyder\")",
+  ]
+},
+"Slyder C":{
+  "prefix": "slyderC",
+  "body": [
+    "SlyderC.mb-5(:datos=\"datosSlyder\")",
+  ]
+},
+"Slyder D":{
+  "prefix": "slyderD",
+  "body": [
+    "SlyderD.mb-5(:datos=\"datosSlyder\")",
+  ]
+},
+"Slyder E":{
+  "prefix": "slyderE",
+  "body": [
+    "SlyderE(indicadores=\"derecha\")",
+      "\t.row",
+        "\t\t.col-md-6.mb-4.mb-md-0",
+          "\t\t\tp This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.",
+      
+        "\t\t.col-md-6",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "figcaption Leyenda de la imagen"
+  ]
+},
+"Slyder F":{
+  "prefix": "slyderF",
+  "body": [
+    "SlyderF.mb-5(columnas=\"col-lg-6 col-xl-4\")",
+      "\t.tarjeta.color-acento-botones.p-4",
+        "\t\t.row.justify-content-center.mb-3",
+          "\t\t\t.col-8",
+            "\t\t\t\timg(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')",
+        "\t\th2.text-center FIRST",
+        "\t\tp.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your"
+  ]
+},
+"Slyder Bootstrap":{
+  "prefix": "slyderBootstrap",
+  "body": [
+    "#carouselExampleIndicators.carousel.slide(data-bs-ride='carousel')",
+      "\t.carousel-indicators",
+        "\t\tbutton.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')",
+        "\t\tbutton(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='1' aria-label='Slide 2')",
+        "\t\tbutton(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='2' aria-label='Slide 3')",
+      "\t.carousel-inner",
+        "\t\t.carousel-item.active",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "\t\t\t\tfigcaption Leyenda de la imagen",
+        "\t\t.carousel-item",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "\t\t\t\tfigcaption Leyenda de la imagen",
+        "\t\t.carousel-item",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')",
+            "\t\t\t\tfigcaption Leyenda de la imagen",
+      "\tbutton.carousel-control-prev(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='prev')",
+        "\t\tspan.carousel-control-prev-icon(aria-hidden='true')",
+        "\t\tspan.visually-hidden Previous",
+      "\tbutton.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')",
+        "\t\tspan.carousel-control-next-icon(aria-hidden='true')",
+        "\t\tspan.visually-hidden Next",
+  ]
+},
+"Row justify center":{
+  "prefix": "rowJustifyCenter",
+  "body": [
+    ".row.justify-content-center.mb-5",
+      "\t.col-lg-8"
+  ]
+},
+"Row justify align center":{
+  "prefix": "rowJustifyAlignCenter",
+  "body": [
+    ".row.justify-content-center.align-items-center.mb-5",
+      "\t.col-lg-8"
+  ]
+},
+"Acordion A":{
+  "prefix": "acordionA",
+  "body": [
+    "AcordionA.mb-5(tipo=\"a\" clase-tarjeta=\"tarjeta tarjeta--azul\")",
+      "\t.row(titulo=\"\")",
+        "\t\t.col-md-6.mb-4.mb-md-0",
+          "\t\t\tp" ,
+      
+        "\t\t.col-md-6",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')"
+  ]
+},
+"Acordion B":{
+  "prefix": "acordionB",
+  "body": [
+    "AcordionA.mb-5(tipo=\"b\" clase-tarjeta=\"tarjeta tarjeta--azul\")",
+      "\t.row(titulo=\"\")",
+        "\t\t.col-md-6.mb-4.mb-md-0",
+          "\t\t\tp" ,
+      
+        "\t\t.col-md-6",
+          "\t\t\tfigure",
+            "\t\t\t\timg(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')"
+  ]
+},
+"Pestanas A":{
+  "prefix": "pestanasA",
+  "body": [
+    "TabsA.color-acento-botones.mb-5",
+      "\t.tarjeta.color-acento-botones--borde.p-4(titulo=\"\")",
+        "\t\th4",
+          "\t\tp" ,
+      
+  ]
+},
+"Pestanas B":{
+  "prefix": "pestanasB",
+  "body": [
+    "TabsB.color-acento-contenido.mb-5",
+      "\t.py-4.py-md-5(titulo=\"\" :icono=\"require('@/assets/componentes/ej-04.svg')\")",
+        "\t\t.row",
+          "\t\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\t\th4" ,
+          "\t\t\t\tp" ,
+          "\t\t\t.col-md-6" ,
+      
+  ]
+},
+"Pestanas C":{
+  "prefix": "pestanasC",
+  "body": [
+    "TabsC.color-acento-contenido.mb-5",
+      "\t.py-4.py-md-5(titulo=\"\")",
+        "\t\t.row",
+          "\t\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\t\th4" ,
+          "\t\t\t\tp" ,
+          "\t\t\t.col-md-6" ,
+      
+  ]
+},
+"Linea tiempo C":{
+  "prefix": "lienatiempoC",
+  "body": [
+    ".tarjeta.tarjeta--gris.p-4.mb-5",
+      "\tLineaTiempoC.color-acento-contenido(text-small)",
+        "\t\t.row(titulo=\"\")",
+          "\t\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\t\th4" ,
+          "\t\t\t\tp" ,
+          "\t\t\t.col-md-6" ,
+      
+  ]
+},
+"Linea tiempo D":{
+  "prefix": "lienatiempoD",
+  "body": [
+    " LineaTiempoD.color-secundario",
+    "\tp.text-small(numero=\"\" titulo=\"\")",
+    
+  ]
+},
+"Pasos A tipo n":{
+  "prefix": "pasosA",
+  "body": [
+    "PasosA.color-primario.mb-5(tipo=\"n\")",
+        "\t.row(titulo=\"\")",
+          "\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\th4" ,
+          "\t\t\tp" ,
+          "\t\t.col-md-6" ,
+      
+  ]
+},
+"Pasos A tipo l":{
+  "prefix": "pasosAl",
+  "body": [
+    "PasosA.color-primario.mb-5(tipo=\"l\")",
+        "\t.row(titulo=\"\")",
+          "\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\th4" ,
+          "\t\t\tp" ,
+          "\t\t.col-md-6" ,
+      
+  ]
+
+},
+"Pasos B":{
+  "prefix": "pasosB",
+  "body": [
+    ".tarjeta.tarjeta--gris.p-4.mb-5",
+      "\tPasosB.color-acento-contenido",
+        "\t\t.row(titulo=\"\")",
+          "\t\t\t.col-md-6.mb-4.mb-md-0" ,
+          "\t\t\t\th4" ,
+          "\t\t\t\tp" ,
+          "\t\t\t.col-md-6" ,
+      
+  ]
+},
+"CTA A":{
+  "prefix": "ctaA",
+  "body": [
+    ".tarjeta.color-acento-botones.p-4.p-md-5.mb-5",
+      "\t.row.justify-content-around.align-items-center",
+        "\t\t.col-8.col-sm-6.col-md-4.mb-4.mb-md-0",
+        "\t\t\timg(src=\"@/assets/componentes/ej-01.png\")" ,
+        "\t\t.col-md.col-lg-6",
+          "\t\t\th3" ,
+          "\t\t\tp.mb-4" ,
+          "\t\t\ta.boton.color-acento-contenido.texto-blanco(:href=\"obtenerLink('downloads/prueba.pdf')\" target=\"_blank\" type=\"application/pdf\")" ,
+          "\t\t\t\tspan Descargar ",
+          "\t\t\t\ti.fas.fa-file-download",
+      
+  ]
+},
+"CTA B":{
+  "prefix": "ctaB",
+  "body": [
+    ".tarjeta.color-primario.p-3.mb-5",
+      "\t.row.justify-content-around.align-items-center",
+        "\t\t.col-3.col-sm-2.col-lg-1",
+        "\t\t\timg(src=\"@/assets/componentes/ej-02.svg\")" ,
+        "\t\t.col",
+          "\t\t\t.row.justify-content-between.align-items-center" ,
+          "\t\t\t\t.col.mb-3.mb-sm-0" ,
+          "\t\t\t\t\th3.mb-1" ,
+          "\t\t\t\t\tp.text-small" ,
+          "\t\t\t\t.col.mb-3.mb-sm-0" ,
+          "\t\t\t\t\ta.boton.color-acento-contenido.texto-blanco(:href=\"obtenerLink('downloads/prueba.pdf')\" target=\"_blank\" type=\"application/pdf\")" ,
+          "\t\t\t\t\t\tspan Descargar ",
+          "\t\t\t\t\t\ti.fas.fa-file-download",
+      
+  ]
+},
+"CTA C":{
+  "prefix": "ctaC",
+  "body": [
+    "a.anexo.mb-4(:href=\"obtenerLink('downloads/prueba.pdf')\" target=\"_blank\")",
+      "\t.row.justify-content-around.align-items-center",
+        "\t\t.anexo__icono",
+        "\t\t\timg(src=\"@/assets/template/icono-pdf.svg\")" ,
+        "\t\t.anexo__texto",
+        "\t\t\tp" ,
+  ]
+},
+"Tarjeta Botones":{
+  "prefix": "tarjetaBotones",
+  "body": [
+    ".tarjeta--boton.color-primario.p-4",
+      "\t.row.justify-content-center.mb-3",
+        "\t\t.col-7",
+        "\t\t\tfigure" ,
+        "\t\t\t\timg(src='@/assets/componentes/ej-03.svg', alt='Texto que describa la imagen')",
+        "\th3.text-center" ,
+        "\tp.text-small" ,
+  ]
+},
+"Tarjetas Conectadas":{
+  "prefix": "tarjetasConectadas",
+  "body": [
+    ".tarjeta--container.row.mb-5",
+      "\t.col-md.tarjeta.color-primario.p-5",
+        "\t\t.row.justify-content-center.mb-4",
+        "\t\t\t.col-6" ,
+        "\t\t\t\tfigure",
+        "\t\t\t\t\timg(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')",
+        "\t\th2.text-center" ,
+        "\t\tp" ,
+      "\t.col-md.tarjeta.color-secundario.p-5",
+        "\t\t.row.justify-content-center.mb-4",
+        "\t\t\t.col-6" ,
+        "\t\t\t\tfigure",
+        "\t\t\t\t\timg(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')",
+        "\t\th2.text-center" ,
+        "\t\tp" ,
+      "\t.col-md.tarjeta.color-acento-contenido.p-5",
+        "\t\t.row.justify-content-center.mb-4",
+        "\t\t\t.col-6" ,
+        "\t\t\t\tfigure",
+        "\t\t\t\t\timg(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')",
+        "\t\th2.text-center" ,
+        "\t\tp" ,
+  ]
+},
+"Tarjetas Avatar A": {
+  "prefix": "tarjetasAvatarA",
+  "body": [
+    ".row",
+    "    .col-lg-6",
+    "      .tarjeta-avatar-b.mb-5",
+    "        .tarjeta-avatar-b__img",
+    "          img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')",
+    "        .tarjeta.tarjeta--azul",
+    "          .p-4",
+    "            h2 ",
+    "            p"
+  ],
+},
+"Tarjetas Avatar B": {
+  "prefix": "tarjetasAvatarB",
+  "body": [
+    ".tarjeta-avatar",
+    "        img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')",
+    "        .tarjeta.color-primario.w-100",
+    "          .text-white.p-4",
+    "            h2.text-center ",
+    "            p"
+  ],
+  "description": "Tarjetas Avatar B"
+},
+"Tarjetas Flip": {
+  "prefix": "tarjetaFlip",
+  "body": [
+    ".tarjeta.tarjeta-flip.color-primario(@mouseover=\"indicadorTarjetaFlip = false\")",
+    "        .indicador--hover(v-if=\"indicadorTarjetaFlip\")",
+    "        .tarjeta-flip__contenedor",
+    "          .tarjeta-flip__img(:style=\"{'background-image': `url(${require('@/assets/componentes/ej-05.svg')})`}\")",
+    "          .tarjeta-flip__contenido.p-4.p-xl-5",
+    "            h1 ",
+    "            p "
+  ],
+  "description": "Tarjetas Flip"
+},
+"Tarjetas Slide": {
+  "prefix": "tarjetaSlide",
+  "body": [
+    ".tarjeta.tarjeta-slide.arriba.color-primario(@mouseover=\"indicadorTarjetaSlide = false\")",
+    "        .indicador--hover(v-if=\"indicadorTarjetaSlide\")",
+    "        .tarjeta-slide__contenedor",
+    "          .tarjeta-slide__contenido.p-4.p-xl-5",
+    "            h1 John Doe",
+    "            p Lorem ipsum dolor sit amet, ",
+    "          .tarjeta-slide__img(:style=\"{'background-image': `url(${require('@/assets/componentes/ej-05.svg')})`}\")"
+  ],
+  "description": "Tarjetas Slide"
+},
+"Margin B Lg":{
+  "prefix": "mblg",
+  "body": [
+    "mb-lg-0.mb-3"
+  ]
+},
+"Zoom in Up":{
+  "prefix": "zoomIn",
+  "body": [
+    "data-aos=\"zoom-in\"",
+    ]
+},
+"Fade Left":{
+  "prefix": "fadel",
+  "body": [
+    "data-aos=\"fade-left\"",
+    ]
+},
+"Fade Rigth":{
+  "prefix": "fader",
+  "body": [
+    "data-aos=\"fade-right\"",
+    ]
+},
+"Style background-color":{
+  "prefix": "stylebg",
+  "body": [
+    "style=\"background-color: \"",
+    ]
+},
+}
+
