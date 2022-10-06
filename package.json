@@ -3,6 +3,7 @@
   "displayName": "Ecored Sena Snippets",
   "description": "Snippet para el desarrollo de componentes educativos SENA",
   "version": "0.0.1",
+  "publisher": "elrilacho",
   "engines": {
     "vscode": "^1.71.0"
   },
