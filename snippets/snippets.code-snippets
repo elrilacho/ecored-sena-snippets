@@ -493,7 +493,7 @@
   ]
 },
 "Linea tiempo C":{
-  "prefix": "lienatiempoC",
+  "prefix": "lineatiempoC",
   "body": [
     ".tarjeta.tarjeta--gris.p-4.mb-5",
       "\tLineaTiempoC.color-acento-contenido(text-small)",
