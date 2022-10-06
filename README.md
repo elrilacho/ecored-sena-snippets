@@ -7,12 +7,12 @@ Paquete de snippets para el lenguaje de programación Sena
 Parrafo margen inferior: pmb 
 
 ## Titulos 
-  Titulo Uno: tituloUno
-  Titulo Dos: tituloDos
-  Titulo Tres: tituloTres
-  Titulo Cuatro: tituloCuatro
-  Titulo Cinco: tituloCinco
-  Titulo Seis: tituloSeis
+  ### Titulo Uno: tituloUno
+  ### Titulo Dos: tituloDos
+  ### Titulo Tres: tituloTres
+  ### Titulo Cuatro: tituloCuatro
+  ### Titulo Cinco: tituloCinco
+  ### Titulo Seis: tituloSeis
 ## Listados
 Listado ordenado basico: listadoOrdenadoBasico
 Listado ordenado basico + separador: ListadoOrdenadoBasicoSeparador
